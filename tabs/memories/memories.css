@@ -1,0 +1,102 @@
+body {
+  background-image: url("/images/background.png");
+  overflow-x: hidden;
+  position: absolute;
+  left: -8px;
+  right: -8px;
+  background-size: 100%;
+}
+p {
+  width: 75vw;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2.2vw;
+  z-index: 2;
+  color: gray;
+  padding-bottom: 3vw;
+  font-family: Goudy Old Style;
+  text-shadow: 3px 3px 3px black;
+}
+img {
+  display: block;
+  margin: auto;
+  border: 10px solid gray;
+  border-radius: 12px;
+  width: 50vw;
+}
+h1 {
+  color: white;
+  font-family: Goudy Old Style;
+  text-align: center;
+  font-size: 5vw;
+}
+hr {
+  background-color: gray;
+  width: 75vw;
+}
+
+.tab button {
+  overflow-x: hidden;
+  border: none;
+  background-image: url("/images/victorian-bricks.png");
+  box-shadow: inset 0 0 100px 20px rgb(0, 0, 0), 0 20px 100px rgb(0, 0, 0);
+  font-family: Goudy Old Style;
+  font-size: 4vw;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: gray;
+  position: absolute;
+  width: 25vw;
+  height: 6vw;
+  margin-top: -5px;
+  background: none;
+}
+
+#home {
+  background-image: url("/images/victorian-bricks.png");
+}
+#memories {
+  margin-left: 25vw;
+  color: white;
+}
+#nick {
+  margin-left: 50vw;
+  background-image: url("/images/victorian-bricks.png");
+}
+#extra {
+  margin-left: 75vw;
+  background-image: url("/images/victorian-bricks.png");
+}
+
+#title {
+  display: block;
+  width: 35vw;
+  margin: auto;
+  margin-top: 8vw;
+}
+
+#cornerLL {
+  position: fixed;
+  bottom: -12px;
+  left: -12px;
+  width: 20vw;
+  border: none;
+}
+#cornerLR {
+  position: fixed;
+  bottom: -12px;
+  right: -12px;
+  width: 20vw;
+  border: none;
+}
+#spiderweb {
+  position: fixed;
+  width: 10vw;
+  top: 0;
+  right: 0;
+  border: none;
+  pointer-events: none;
+}
