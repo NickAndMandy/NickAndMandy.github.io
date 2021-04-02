@@ -19,14 +19,13 @@ p {
   font-family: Goudy Old Style;
   text-shadow: 3px 3px 3px black;
 }
-video {
+.vid {
   display: block;
   margin: auto;
   border: 10px solid gray;
   border-radius: 12px;
   width: 50vw;
 }
-
 .tab button {
   overflow-x: hidden;
   border: none;
